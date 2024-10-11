@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .gerakan {
+    @apply hover:-translate-y-1 hover:scale-105 duration-200;
+  }
+}

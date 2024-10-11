@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font end -->
+    <link rel="stylesheet" href="public/output.css" />
+    <link rel="stylesheet" href="public/reset.css" />
+    <link rel="stylesheet" href="public/style.css" />
+    <title>Rumah makan Depot citra</title>
+    <!-- npx tailwindcss -i ./public/input.css -o ./public/output.css --watch -->
+  </head>
+  <body class="font-ubuntu">
+    <nav
+      class="bg-indigo-200 w-full shadow fixed px-5 z-40 h-10 lg:h-14 lg:py-2 xl:px-10"
+    >
+      <div class="flex justify-between sm:justify-around">
+        <h1
+          class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold tracking-wider text-indigo-400 bayang self-center font-courgette sm:self-start"
+        >
+          Depot <span class="text-bbiru">citra</span>
+        </h1>
+        <div class="self-center sm:self-start" id="tombolmenu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 sm:stroke-none text-tungu font-bold z-50"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+        <div
+          class="nav-a absolute w-52 text-center text-tungu text-xl sm:flex sm:justify-evenly sm:items-center sm:flex-1 sm:w-1 sm:text-2xl duration-150"
+          id="burgermenu"
+        >
+          <a
+            href="#"
+            class="block mb-8 mt-12 sm:inline sm:mb-0 sm:mt-0 sm:mx-2 gerakan"
+            >beranda</a
+          >
+          <a
+            href="public/menu.html"
+            class="block mb-8 sm:inline sm:mb-0 sm:mt-0 sm:mx-2 gerakan"
+            >Menu</a
+          >
+          <a
+            href="public/tentang.html"
+            class="block mb-52 sm:inline sm:mb-0 sm:mt-0 gerakan"
+            >Tentangkami</a
+          >
+          <h1
+            class="text-6xl rotate-90 bottom-0 bayang2 font-bold tracking-widest"
+          >
+            BERANDA
+          </h1>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-isi p-4 sm:p-5 lg:p-12">
+        <h1
+          class="text-6xl font-extrabold font-courgette tracking-wider text-tungu bayang3 mb-5 sm:text-7xl lg:text-8xl 2xl:text-9xl"
+        >
+          Depot <span class="text-bbiru">citra</span>
+        </h1>
+        <p
+          class="text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl text-white mb-2 sm:mb-3 xl:font-light"
+        >
+          Rumah makan madura |
+        </p>
+        <p
+          class="text-2xl sm:text-3xl 2xl:text-4xl text-white font-extralight font-kalam"
+        >
+          nyaman mude ben sehat
+        </p>
+        <div
+          class="belanjabox cursor-pointer gerakan bg-bungu py-2 px-6 rounded-3xl inline-block text-white shadow-md mt-2 xl:px-8 xl:py-4 2xl:rounded-[2rem]"
+        >
+          <h1 class="text-2xl 2xl:text-3xl">
+            <a href="#belanja">Kunjungi sekarang</a>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="about bg-bbiru relative">
+      <div
+        class="flex justify-center flex-col items-center px-10 relative sm:flex-row sm:px-7% sm:py-4"
+      >
+        <div class="row">
+          <div class="py-7 sm:pr-4">
+            <img
+              src="public//img/memori1.jpg"
+              alt=""
+              class="border-4 border-white h-64 w-96 object-cover sm:h-full sm:w-full"
+            />
+          </div>
+        </div>
+        <div
+          class="text-xl leading-loose text-white sm:text-lg sm:leading-relaxed lg:text-lg lg:leading-full lg:p-20 2xl:text-2xl 2xl:leading-full 2xl:py-1 2xl:w-full 2xl:h-full"
+        >
+          <h1
+            class="text-white text-3xl py-5 text-center font-bold bayang sm:text-4xl lg:text-5xl 2xl:text-[3rem] xl:leading-[4rem]"
+          >
+            Kenapa harus mampir ke depot citra?
+          </h1>
+          <p class="text-justify lg:mb-2">
+            karena kami menyediakan berbagai hidangan spesial untuk anda nikmati
+            dengan nyaman, aman dan tak lupa suasana sederhana dan tempo doeloe
+            akan membuat anda serasa bernostalgia pada tahun awal dimasa
+            berdirinya kami, yaitu pada tahun 2001.
+          </p>
+          <p class="text-justify lg:mb-2">
+            tapi jangan salah sangka, meskipun kami menganut konsep
+            kesederhanaan tapi kalau soal rasa kami tentu kami juaranya. dan
+            yang paling penting, ramah di kantong lho...
+          </p>
+          <p class="text-justify lg:mb-2">
+            ennga percaya? buruan datang dan rasakan sendiri kelezatannya di
+            rumah makan kami.
+          </p>
+
+          <h5 class="my-5 text-sm text-center bayang font-semibold sm:text-lg">
+            <span>buka:</span> 06:00WIB | <span>tutup:</span> 23:00WIB
+          </h5>
+        </div>
+      </div>
+      <div class="w-full bottom-0 -mb-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#c7d2fe"
+            fill-opacity="1"
+            d="M0,128L30,128C60,128,120,128,180,117.3C240,107,300,85,360,112C420,139,480,213,540,224C600,235,660,181,720,144C780,107,840,85,900,74.7C960,64,1020,64,1080,69.3C1140,75,1200,85,1260,101.3C1320,117,1380,139,1410,149.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <section class="menu bg-bungu relative">
+      <div class="">
+        <div class="row text-center pb-7 sm:pb-14 2xl:pb-16">
+          <h1
+            class="text-tungu text-4xl font-courgette bayang2 sm:text-6xl lg:text-8xl 2xl:text-9xl"
+          >
+            Menu pilihan
+          </h1>
+        </div>
+        <div class="row scroll-px-1 flex flex-wrap justify-evenly">
+          <div
+            class="menu-box gerakan cursor-pointer w-44 mb-9 overflow-hidden rounded-2xl shadow-2xl sm:w-72 2xl:w-96"
+          >
+            <img
+              src="public/img/pp.jpg"
+              alt=""
+              class="w-full object-cover h-28 sm:h-48 2xl:h-64"
+            />
+            <div
+              class="bg-white px-2 py-7 flex items-center justify-center rounded-b-2xl 2xl:py-10"
+            >
+              <h1 class="text-center text-xl font-bold sm:text-3xl">Seaood</h1>
+            </div>
+          </div>
+          <div
+            class="menu-box gerakan cursor-pointer w-44 mb-9 overflow-hidden rounded-2xl shadow-2xl sm:w-72 2xl:w-96"
+          >
+            <img
+              src="public/img/pp.jpg"
+              alt=""
+              class="w-full object-cover h-28 sm:h-48 2xl:h-64"
+            />
+            <div
+              class="bg-white px-2 py-7 flex items-center justify-center rounded-b-2xl 2xl:py-10"
+            >
+              <h1 class="text-center text-xl font-bold sm:text-3xl">food</h1>
+            </div>
+          </div>
+          <div
+            class="menu-box gerakan cursor-pointer w-44 mb-9 overflow-hidden rounded-2xl shadow-2xl sm:w-72 2xl:w-96"
+          >
+            <img
+              src="public/img/pp.jpg"
+              alt=""
+              class="w-full object-cover h-28 sm:h-48 2xl:h-64"
+            />
+            <div
+              class="bg-white px-2 py-7 flex items-center justify-center rounded-b-2xl cursor-pointer 2xl:py-10"
+            >
+              <h1 class="text-center text-xl font-bold sm:text-3xl">Minuman</h1>
+            </div>
+          </div>
+          <div
+            class="menu-box gerakan cursor-pointer w-44 mb-9 overflow-hidden rounded-2xl shadow-2xl sm:w-72 2xl:w-96"
+          >
+            <img
+              src="public/img/pp.jpg"
+              alt=""
+              class="w-full object-cover h-28 sm:h-48 2xl:h-64"
+            />
+            <div
+              class="bg-white px-2 py-7 flex items-center justify-center rounded-b-2xl 2xl:py-10"
+            >
+              <h1 class="text-center text-xl font-bold sm:text-3xl">Lainnya</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full bottom-0 -mb-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#7DD3FC"
+            fill-opacity="1"
+            d="M0,128L30,122.7C60,117,120,107,180,122.7C240,139,300,181,360,181.3C420,181,480,139,540,133.3C600,128,660,160,720,186.7C780,213,840,235,900,234.7C960,235,1020,213,1080,186.7C1140,160,1200,128,1260,112C1320,96,1380,96,1410,96L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <section class="fasilitas bg-bbiru">
+      <div class="sm:py-4 sm:px-12 lg:px-24">
+        <h1
+          class="text-center text-4xl font-bold text-white mb-5 bayang sm:text-5xl xl:text-7xl xl:mb-10 2xl:text-8xl 2xl:mb-12"
+        >
+          Fasilitas kami
+        </h1>
+        <div class="row flex items-center px-5 mb-5 2xl:px-10">
+          <img
+            src="public/fasilitas/parkir.png"
+            alt=""
+            class="w-36 h-36 mr-3 2xl:w-52 2xl:h-52"
+          />
+          <p class="text-justify text-white sm:text-lg 2xl:px-4 2xl:text-2xl">
+            <span
+              class="font-bold text-lg block bayang sm:text-xl 2xl:text-3xl 2xl:mb-2"
+              >parkir luas dan GRATIS</span
+            >anda mengendarai motor, mobil, atau bahkan truk?. jangan khawatir,
+            kami menyediakan parkir yang cukup untuk kendaran anda. say NO pada
+            pungutan liar karena kami menyediakan parkir kepada anda secara
+            gratis. kalau ada yang bantu cukup bilang terima kasih :p
+          </p>
+        </div>
+        <div class="row flex items-center px-5 mb-5">
+          <img
+            src="public/fasilitas/mushola.png"
+            alt=""
+            class="w-36 h-36 mr-3 2xl:w-52 2xl:h-52"
+          />
+          <p class="text-justify text-white sm:text-lg 2xl:px-4 2xl:text-2xl">
+            <span
+              class="font-bold text-lg block bayang sm:text-xl 2xl:text-3xl 2xl:mb-2"
+              >Musholla</span
+            >jangan lupa untuk beribadah selama perjalanan jauh anda di musholla
+            yang kami sediakan. ada tempat wudhu dan peralatan sholat juga
+            tentunya
+          </p>
+        </div>
+        <div class="row flex items-center px-5 mb-5">
+          <img
+            src="public/fasilitas/toilet.png"
+            alt=""
+            class="w-36 h-36 mr-3 2xl:w-52 2xl:h-52"
+          />
+          <p class="text-justify text-white sm:text-lg 2xl:px-4 2xl:text-2xl">
+            <span
+              class="font-bold text-lg block bayang sm:text-xl 2xl:text-3xl 2xl:mb-2"
+              >toilet dan kamar mandi GRATIS</span
+            >kami menyediakan satu toilet dan dua kamar mandi untuk anda pakai
+            dan tentu saja ini gratis tanpa di pungut biaya apapun sehingga anda
+            tak perlu khawatir lagi kalau ingin bolak-balik.
+          </p>
+        </div>
+        <div class="row flex items-center px-5 mb-5">
+          <img
+            src="public/fasilitas/wifi-signal.png"
+            alt=""
+            class="w-36 h-36 mr-3 bg-white rounded-full 2xl:w-52 2xl:h-52"
+          />
+          <p class="text-justify text-white sm:text-lg 2xl:px-4 2xl:text-2xl">
+            <span
+              class="font-bold text-lg block bayang sm:text-xl 2xl:text-3xl 2xl:mb-2"
+              >Free wifi</span
+            >selain parkir gratis, kamipun menyediakan wifi gratis untuk
+            pelanggan-pelanggan kami semua. jangan lupa untuk menanyakan
+            terlebih dahulu password wifinya ke kami ya..
+          </p>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#C7D2FE"
+          fill-opacity="1"
+          d="M0,96L30,106.7C60,117,120,139,180,154.7C240,171,300,181,360,165.3C420,149,480,107,540,106.7C600,107,660,149,720,165.3C780,181,840,171,900,165.3C960,160,1020,160,1080,144C1140,128,1200,96,1260,80C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <section class="komentar bg-bungu" id="belanja">
+      <h1
+        class="text-3xl text-tungu text-center font-bold mb-4 font-courgette px-3 bayang2 sm:text-4xl lg:text-6xl 2xl:text-7xl 2xl:mb-6"
+      >
+        Apa komentar mereka tentang depot citra?
+      </h1>
+      <div class="flex justify-center items-center">
+        <div
+          class="box flex flex-col px-8 py-5 lg:px-16 lg:flex-row 2xl:h-[70vh]"
+        >
+          <div class="map lg:w-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.181114608128!2d113.42473884061071!3d-7.220171696325832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd77f260ff4dae3%3A0x44b78c3149a2fc27!2sDEPOT%20CITRA!5e0!3m2!1sid!2sid!4v1724586694192!5m2!1sid!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map w-full lg:h-full"
+            ></iframe>
+          </div>
+          <div
+            class="text bg-white flex flex-col items-center h-96 relative lg:px-14 lg:py-2 2xl:h-full 2xl:w-full 2xl:justify-center"
+          >
+            <img src="public/komentator/matt.png" alt="" class="w-52" />
+            <div class="komentar text-center mb-5 px-2">
+              <p class="sm:text-lg 2xl:text-xl 2xl:leading-relaxed">
+                <span class="block font-bold sm:text-xl 2xl:text-2xl"
+                  >Matt Journey</span
+                >
+                Masakan khas madura yang susah untuk tidak mampir jika melewati
+                jalan arah ke Pamekasan (jika dari arah barat) atau jalan arah
+                ke Sampang (jika dari arah timur)
+              </p>
+            </div>
+            <div class="tombol flex absolute bottom-1 my-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 mx-2 2xl:size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 mx-2 2xl:size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 mx-2 2xl:size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 mx-2 2xl:size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 mx-2 2xl:size-10"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-bbiru">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#c7d2fe"
+          fill-opacity="1"
+          d="M0,192L30,165.3C60,139,120,85,180,96C240,107,300,181,360,192C420,203,480,149,540,138.7C600,128,660,160,720,176C780,192,840,192,900,197.3C960,203,1020,213,1080,213.3C1140,213,1200,203,1260,186.7C1320,171,1380,149,1410,138.7L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="px-3 py-5">
+        <p class="text-tungu text-center text-sm sm:text-lg">
+          created by
+          <a href="https://www.instagram.com/fauzi_iilyas" class="font-bold"
+            >fauzi ilyas</a
+          >. & supported by
+          <a href="https://www.instagram.com/cobrax_06" class="font-bold"
+            >ahmad jihad.</a
+          >
+          | &copy; 2024.
+        </p>
+      </div>
+    </footer>
+    <script src="public/script.js"></script>
+  </body>
+</html>

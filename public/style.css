@@ -1,0 +1,176 @@
+/* body {
+  min-height: 500rem;
+} */
+
+nav .nav-a {
+  background-color: rgb(199, 210, 254, 0.9);
+  top: 100%;
+  right: -100%;
+  min-height: 100vh;
+  position: absolute;
+  /* right: 0; */
+}
+
+nav .nav-a a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #c7f3fe, 0 0 20px #aad2e4, 0 0 40px #85c4dd;
+}
+
+nav .nav-a a:hover::after {
+  transform: scaleX(1);
+}
+
+@media (min-width: 640px) {
+  nav .nav-a {
+    right: 0;
+    background-color: transparent;
+    min-height: 1px;
+    position: relative;
+  }
+
+  nav .nav-a h1 {
+    display: none;
+  }
+}
+nav .nav-a.active {
+  right: 0;
+}
+
+.bayang {
+  text-shadow: 1px 1px 1px rgba(85, 85, 85, 0.6);
+}
+
+.bayang2 {
+  text-shadow: 2px 3px 2px rgba(85, 85, 85, 0.9);
+}
+
+.bayang3 {
+  text-shadow: 2px 5px 3px rgba(70, 70, 70, 0.9);
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-image: url(img/hidangan.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* .hero-section::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+} */
+
+.min {
+  min-height: 100vh;
+}
+
+.min2 {
+  min-height: 70vh;
+}
+
+.gambarmenubox {
+  background: url(img/hidanganbg.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gambartentangbox {
+  background: url(img/gambarlobibg.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gambarmenubox .container h1:hover,
+.gambartentangbox .container h1:hover {
+  color: #8596dd;
+  transition: 0.5s;
+}
+
+.list-menu h1:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #c7d2fe, 0 0 20px #aab6e4, 0 0 40px #8596dd;
+}
+
+.boxmenu {
+  position: relative;
+}
+
+.boxmenu .boxisi {
+  opacity: 0;
+  width: 80%;
+  bottom: -2rem;
+  line-height: 2rem;
+  transition: opacity 1s 1s;
+  position: absolute;
+  z-index: 10;
+}
+
+.boxmenu:hover .boxisi {
+  opacity: 1;
+  animation: show-data 1s forwards;
+  transition: opacity 0.3s;
+}
+
+.boxmenu:hover {
+  animation: remove-overflow 0.1s forwards;
+}
+
+@keyframes show-data {
+  50% {
+    transform: translateY(-3rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
+}
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+
+.hoveran:hover {
+  opacity: 0.8;
+}
+
+.anima {
+  transform: translateY(0.5rem);
+  filter: blur(3px);
+  animation: animasi 300ms linear forwards;
+}
+.anima2 {
+  transform: translateY(1px);
+  animation: animasi 500ms linear forwards;
+}
+
+@keyframes animasi {
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
