@@ -1,7 +1,17 @@
 const burgermenu = document.querySelector("#burgermenu");
 
-const tombolmenu = (document.querySelector("#tombolmenu").onclick = () => {
+document.querySelector("#tombolmenu").onclick = () => {
   burgermenu.classList.toggle("active");
+};
+
+const tombolmenu = document.querySelector("#tombolmenu");
+document.addEventListener("click", function (event) {
+  if (
+    !burgermenu.contains(event.target) &&
+    !tombolmenu.contains(event.target)
+  ) {
+    burgermenu.classList.remove("active");
+  }
 });
 
 // ? menu-menu pilihan
