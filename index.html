@@ -340,6 +340,7 @@
         Apa komentar mereka tentang depot citra?
       </h1>
       <div class="flex justify-center items-center">
+        `
         <div
           class="box flex flex-col px-8 py-5 lg:px-16 lg:flex-row 2xl:h-[70vh]"
         >
@@ -355,8 +356,12 @@
           <div
             class="text bg-white flex flex-col items-center h-96 relative lg:px-14 lg:py-2 2xl:h-full 2xl:w-full 2xl:justify-center"
           >
-            <img src="public/komentator/matt.png" alt="" class="w-52" />
-            <div class="komentar text-center mb-5 px-2">
+            <div class="komentar text-center mb-5 px-2" id="isikomentar">
+              <img
+                src="public/komentator/matt.png"
+                alt=""
+                class="w-52 inline-block"
+              />
               <p class="sm:text-lg 2xl:text-xl 2xl:leading-relaxed">
                 <span class="block font-bold sm:text-xl 2xl:text-2xl"
                   >Matt Journey</span
@@ -374,6 +379,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-8 mx-2 2xl:size-10"
+                id="tombol1"
               >
                 <path
                   stroke-linecap="round"
@@ -388,6 +394,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-8 mx-2 2xl:size-10"
+                id="tombol2"
               >
                 <path
                   stroke-linecap="round"
@@ -402,6 +409,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-8 mx-2 2xl:size-10"
+                id="tombol3"
               >
                 <path
                   stroke-linecap="round"
@@ -416,6 +424,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-8 mx-2 2xl:size-10"
+                id="tombol4"
               >
                 <path
                   stroke-linecap="round"
@@ -430,6 +439,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-8 mx-2 2xl:size-10"
+                id="tombol5"
               >
                 <path
                   stroke-linecap="round"
@@ -464,5 +474,35 @@
       </div>
     </footer>
     <script src="public/script.js"></script>
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#tombol2").on("click", function () {
+          $("#isikomentar").html(
+            '<img src="public/komentator/puteri.png" alt="" class="w-44 inline-block"><p class="sm:text-lg 2xl:text-xl 2xl:leading-relaxed"id="isikomentar"><span class="block font-bold sm:text-xl 2xl:text-2xl">Puteri Qotrina</span> Makanan seafood enak bumbu rumahan harga bersahabat banget. Potongan ikannya gede2. Fresh. Ada jg non seafood. RM oldschool tp tetap survive Krn RASA </p>'
+          );
+        });
+        $("#tombol1").on("click", function () {
+          $("#isikomentar").html(
+            '<img src="public/komentator/matt.png" alt="" class="w-52 inline-block"><p class="sm:text-lg 2xl:text-xl 2xl:leading-relaxed"id="isikomentar"><span class="block font-bold sm:text-xl 2xl:text-2xl">Matt Journey</span> Masakan khas madura yang susah untuk tidak mampir jika melewati jalan arah ke Pamekasan (jika dari arah barat) atau jalan arah ke Sampang (jika dari arah timur) </p>'
+          );
+        });
+        $("#tombol3").on("click", function () {
+          $("#isikomentar").html(
+            '<img src="public/komentator/arifin.png" alt="" class="w-52 inline-block"><p class="sm:text-lg 2xl:text-xl 2xl:leading-relaxed"id="isikomentar"><span class="block font-bold sm:text-xl 2xl:text-2xl">arifin waluya</span> Tempat ini easy to notice Masakannya cocok dengan lidah saya lidah jawa harga Alhamdulillah bersahabat </p>'
+          );
+        });
+        $("#tombol4").on("click", function () {
+          $("#isikomentar").html(
+            '<img src="public/komentator/rezeki.png" alt="" class="w-52 inline-block"><p class="sm:text-lg 2xl:text-xl 2xl:leading-relaxed"id="isikomentar"><span class="block font-bold sm:text-xl 2xl:text-2xl">Awal M Rezeki</span> Harga murah, rasa enak, variasi menu banyak, lokasi strategis, tempat bersih dan luas... Yg terpenting lagi penjualnya ramah </p>'
+          );
+        });
+        $("#tombol5").on("click", function () {
+          $("#isikomentar").html(
+            '<img src="public/komentator/saifudin.png" alt="" class="w-44 inline-block"><p class="sm:text-lg 2xl:text-xl 2xl:leading-relaxed"id="isikomentar"><span class="block font-bold sm:text-xl 2xl:text-2xl">Saifudin Gituloh</span> ...disediakan tempat lesehan maupun duduk. Untuk harga cukup murah.... Waktu saya berkunjung disini tidak ada tukang parkir sehingga bebas parkir. </p>'
+          );
+        });
+      });
+    </script>
   </body>
 </html>
