@@ -2,6 +2,17 @@
   min-height: 500rem;
 } */
 
+nav {
+  transform: translateY(-10rem);
+  animation: navAnima 1s forwards;
+}
+
+@keyframes navAnima {
+  to {
+    transform: translateY(0);
+  }
+}
+
 nav .nav-a {
   background-color: rgb(199, 210, 254, 0.9);
   top: 100%;
@@ -159,8 +170,8 @@ nav .nav-a.active {
 }
 
 .anima {
-  transform: translateY(0.5rem);
-  filter: blur(3px);
+  transform: translateY(1rem);
+  filter: blur(2px);
   animation: animasi 300ms linear forwards;
 }
 .anima2 {
